@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'Monserrat'; 
+    font-style: normal;
+	src: url(../Poppins-Medium.ttf); 
+}
+
+@font-face {
+	font-family: 'Monserrat'; 
+    font-style: medium;
+	src: url(../Poppins-Bold.ttf); 
+}
+
+.header {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 1440px;
+    border-bottom: 1px solid dimgray;
+    margin-top: 14px;
+    font-family: Monserrat, Arial;
+    font-style: bold;
+    font-size: 32px;
+    color: dimgray;
+}
+
+.subtitle {
+    margin-top: 22px;
+    text-align: center;
+    font-family: Monserrat, Arial;
+    font-style: bold;
+    font-size: 24px;
+    color: dimgray;
+}
+.main {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    height: 600px;
+    display: flex;
+}
+.menu {
+    height: 600px;
+    margin-top: 20px;
+    border-right: 1px solid dimgray;
+}
+.content {
+    width: 85%;
+}
+.footer {
+}
+.menu {
+    text-align: left;
+    width: 15%;
+}
+.menu-left {
+    display: flex;
+    flex-direction: column;
+}
+.menu__link {
+    margin-top: 14px;
+    font-family: Monserrat, Arial;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.link {
+    color: dimgray;
+    text-decoration: none;
+}
+
+.field {
+    margin-top: 60px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.gaimer {
+    margin-top: 40px;
+}
+
+.field {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 14px;
+    font-family: Monserrat, Arial;
+    font-style: bold;
+    font-size: 18px;
+    color: dimgray;
+}
+
+.key {
+    width: 150px;
+    height: 50px;
+    border: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    visibility: hidden;
+}

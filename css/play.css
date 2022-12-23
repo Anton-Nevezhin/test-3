@@ -1,0 +1,23 @@
+.fields {
+    margin-left: auto;
+    margin-right: auto;
+    width: 156px;
+    height: 156px;
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.field {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    border-style: solid;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
